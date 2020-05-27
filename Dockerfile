@@ -64,4 +64,4 @@ EXPOSE 8888
 ENTRYPOINT ["jupyter"]
 #CMD snakemake -rp --configfile config.yml
 
-#CMD ["lab", "--no-browser"]
+CMD ["lab", "--no-browser"]
